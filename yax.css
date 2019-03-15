@@ -1,0 +1,79 @@
+body{
+	background-color: lightgrey;
+	text-align: center;
+	align-content: center;
+	background-image: url("background.jpg");
+}
+
+h1{
+	padding-top: 50px;padding-bottom: 20px;
+	font-family: "Ubuntu";
+	font-size: 48px;
+	color: white;
+}
+
+input[type="text"] {
+    font-family: "Ubuntu";
+    font-size:22px;
+}
+
+input[type="checkbox"] {
+    width:18px;
+    height:18px;
+    background: #666666;
+}
+
+div{
+	font-family: "Ubuntu";
+	position: relative;
+	padding-left: 10px;padding-top: 5px;
+	text-align: left;
+	width: 918px;
+	background-color: white;
+	left: 213px;
+	font-size: 25px;
+	height: 30px;
+}
+
+div:hover{
+	
+	outline: 3px solid red; 
+}
+
+.strikethrough:checked + span{
+  text-decoration:line-through
+}
+
+.fas{
+	position: absolute;
+	left: 865px;
+}
+
+.fas:hover{
+	color: orange;
+
+}
+
+#task_input{
+	size: 14px;
+	width: 800px;
+	padding-top: 3px;padding-bottom: 3px;
+
+}
+
+#tasks{
+	position: relative;
+	right: 3px;
+}
+
+#submit_button{
+	position: relative;bottom: 1px;
+	font-family: "Ubuntu";
+	width: 125px;
+	height: 36px;
+	font-size: 20px;
+
+	/*background-color: orange;*/
+}
+
+
